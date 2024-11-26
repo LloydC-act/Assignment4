@@ -3,6 +3,7 @@
     "name": "Assgnmnt4",
     "slug": "Assgnmnt4",
     "version": "1.0.0",
+    "scheme": "Assgnmnt4-scheme",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -23,6 +24,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
